@@ -1,0 +1,224 @@
+@media (max-width:1240px){
+.dp{
+ width: 700px;
+ height: auto;
+}
+
+.about-sec{
+    margin: 8rem  8rem 0  8rem;
+    
+}
+}
+
+@media(max-width:920px){
+    .dp{
+        width: 80%;
+        height: auto;
+    }
+    p{
+        font-size: 5vw;
+    }
+    .p1{
+        font-size: 5vw;
+    }
+}
+
+
+@media(max-width:720px){
+    h3{
+        line-height: 2;
+    }
+    .about-sec{
+        margin: 5rem  2rem 0  2rem;
+       
+    }
+    p{
+        line-height: 3rem;
+        font-size: 5.2vw;
+    }
+    .p1{
+        line-height: 3rem;
+        font-size: 5.2vw;
+        margin-top: 3rem;
+    }
+}
+
+
+@media(max-width:640px){
+
+    .dp{
+        width: 80%;
+        height: auto;
+    }
+    .marquee{
+        font-size: 9rem;
+        height: 15rem;
+        margin-top: 5rem;
+        z-index: 1;
+        font-weight: lighter;
+    }
+    .cont{
+        margin-top: -5rem;
+    }
+    .mySlides{
+        margin: 8rem 0 0 0;
+    }
+    .about-sec{
+        margin: 6rem  2rem 0  2rem;
+       
+    }
+    p{
+        line-height: 3rem;
+        font-size: 5.2vw;
+    }
+    .p1{
+        line-height: 3rem;
+        font-size: 5.2vw;
+        margin-top: 2rem;
+    }
+    
+    
+    h3{
+        line-height: 1.5;
+    }
+    .parallax-wrapper{
+        margin: 2rem 0 0 0;
+    }
+    .head{
+        margin: 2rem 0 0 0;
+    }
+.parallal{
+    min-height: 400px;
+    background-size: 90%;
+}
+.parallal1{
+    min-height: 400px;
+    margin-bottom: 0;
+    background-size: 90%;
+   
+}
+.parallal2{
+    min-height: 400px;
+    background-size: 90%;
+}
+
+.parallal3{
+    min-height: 400px;
+    background-size: 90%;
+   
+   
+}
+.parallal4{
+    min-height: 400px;
+    background-size: 90%;
+   
+    
+}
+.experince,span{
+    font-size: 2vw;
+    margin: 0 0.5rem;
+
+}
+.p5{
+    margin: 0;
+    font-size: 15vw;
+}
+.expertise{
+    flex-direction: column;
+    height: 150vh;
+    gap: 0;
+}
+.skilled{
+    text-align: center;
+    font-size: 12vw;
+
+}
+.set1{
+    margin: 2rem 0 0 0;
+    width: 100%;
+}
+.skills{
+    margin: 0;
+    font-size: 8vw;
+    text-align: center;
+}
+.touch{
+    font-size: 10vw;
+}
+.footer{
+    gap:0;
+}
+.social{
+    gap: 0.5rem;
+}
+.social-links{
+font-size: 1rem;
+}
+.heading4{
+    font-size: 12vw;
+}
+.trademark{
+    flex-direction: column;
+    background-color: rgb(255, 60, 0);
+    gap: 0;
+}
+.tr{
+    width: 100%;
+    padding: 0 2.5rem;
+}
+.my_email{
+    width: 100%;
+    padding: 0 2.5rem;
+    margin: -7rem 0 0 0;
+
+}
+.foot{
+    width: 100%;
+    padding: 0 2rem;
+    margin: -10rem 0 0 0;
+    
+}
+.heading5{
+    width: 100%;
+    font-size: 18vw;
+    padding: 0 2.5rem;
+}
+.tr{
+  margin: -5rem 0 0 0;
+
+}
+#send{
+    width: 100%;
+}
+}
+
+@media(max-width:460px){
+    .branding{
+        width: 10%;
+    }
+
+ .links{
+    font-size: 3vw;
+ }
+ .nav-menu{
+    padding: 0;
+    display: flex;
+ }
+ .container{
+    padding: 0;
+    width: 100%;
+ }
+ p{
+    font-size: 6.5vw;
+ }
+ .p1{
+    font-size: 6.5vw;
+
+ }
+ .p5{
+    font-size: 25vw;
+ }
+ .touch{
+    font-size: 8vw;
+ }
+}
