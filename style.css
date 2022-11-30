@@ -3,12 +3,12 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
 @font-face {
   font-family: clash;
-  src: url(/ClashDisplay-Regular.otf);
+  src: url(ClashDisplay-Regular.otf);
 }
 
 @font-face {
   font-family: neutral;
-  src: url(/NeutralFace.otf);
+  src: url(NeutralFace.otf);
 }
 
 * {
@@ -469,7 +469,7 @@ h6 {
 }
 
 .parallal {
-  background-image: url(/2.jpg);
+  background-image: url(2.jpg);
   min-height: 600px;
   background-position: center;
   background-repeat: no-repeat;
@@ -495,7 +495,7 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url(/1.jpg);
+  background-image: url(1.jpg);
   min-height: 800px;
   background-attachment: fixed;
   background-position: center;
@@ -504,7 +504,7 @@ h6 {
 }
 
 .parallal2 {
-  background-image: url(/3.jpg);
+  background-image: url(3.jpg);
   min-height: 800px;
   background-attachment: fixed;
   background-position: center;
@@ -522,7 +522,7 @@ h6 {
 }
 
 .parallal3 {
-  background-image: url(/4.jpg);
+  background-image: url(4.jpg);
   min-height: 800px;
   background-attachment: fixed;
   background-position: center;
@@ -540,7 +540,7 @@ h6 {
 }
 
 .parallal4 {
-  background-image: url(/4.jpg);
+  background-image: url(5.jpg);
   min-height: 800px;
   background-attachment: fixed;
   background-position: center;
