@@ -793,6 +793,10 @@ footer {
   padding: 20px;
 }
 
+.my_email:hover {
+  color: black;
+}
+
 .foot {
   display: -webkit-box;
   display: -ms-flexbox;
