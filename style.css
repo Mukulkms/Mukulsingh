@@ -688,7 +688,7 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 8rem 0  0 0;
+  margin-top: 2rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -813,5 +813,7 @@ footer {
 .footer-links:hover {
   -webkit-text-decoration: underline 1px;
           text-decoration: underline 1px;
+  color: black;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */

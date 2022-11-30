@@ -160,7 +160,7 @@
 }
 .footer{
     gap:0;
-    margin-top: 0;
+    margin: 0 0 0 0;
 }
 .social{
     gap: 0.5rem;
@@ -208,7 +208,10 @@ font-size: 1rem;
 
 @media(max-width:460px){
     
-
+    .footer{
+        gap:0;
+        margin: 0 0 0 0;
+    }
     .dpmob{
        width: 90%;
        height: auto;
