@@ -47,7 +47,7 @@
 @media(max-width:640px){
  header{
     margin-bottom: 2rem;
-    padding: 0 2rem;
+    padding: 0 1rem;
  }
   .mySlides{
     display: none;
