@@ -45,20 +45,32 @@
 
 
 @media(max-width:640px){
-
-    .dp{
-        width: 80%;
-        height: auto;
-    }
+ header{
+    margin-bottom: 2rem;
+    padding: 0 2rem;
+ }
+  .mySlides{
+    display: none;
+  }
+  .myslide2{
+    display: flex;
+  }
+  .dpmob{
+    width: 420px;
+    height: auto;
+    margin-top: -23.5rem;
+    box-shadow:var(--box-shadow);
+  }
+  
     .marquee{
         font-size: 9rem;
         height: 15rem;
-        margin-top: 5rem;
+        margin-top: 10rem;
         z-index: 1;
         font-weight: lighter;
     }
     .cont{
-        margin-top: -5rem;
+        margin-top: 2rem;
     }
     .mySlides{
         margin: 8rem 0 0 0;
@@ -125,7 +137,7 @@
 }
 .expertise{
     flex-direction: column;
-    height: 150vh;
+    height: 140vh;
     gap: 0;
 }
 .skilled{
@@ -142,11 +154,13 @@
     font-size: 8vw;
     text-align: center;
 }
+
 .touch{
     font-size: 10vw;
 }
 .footer{
     gap:0;
+    margin-top: 0;
 }
 .social{
     gap: 0.5rem;
@@ -193,6 +207,12 @@ font-size: 1rem;
 }
 
 @media(max-width:460px){
+    
+
+    .dpmob{
+       width: 90%;
+       height: auto;
+    }
     .branding{
         width: 10%;
     }
@@ -219,6 +239,7 @@ font-size: 1rem;
     font-size: 25vw;
  }
  .touch{
-    font-size: 8vw;
+    font-size: 9vw;
+    font-weight: bold;
  }
 }

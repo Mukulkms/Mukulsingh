@@ -24,7 +24,7 @@ html {
 }
 
 :root {
-  --background: rgba(0, 0, 0, 0.929);
+  --background:black;
   --text: white;
   --box-shadow: 0 0 20px rgba(246, 244, 244, 0.229);
 }
@@ -212,12 +212,21 @@ main {
 }
 
 .dp {
-  display: none;
   width: 48%;
   height: auto;
   margin-top: -33.5rem;
   -webkit-box-shadow: var(--box-shadow);
           box-shadow: var(--box-shadow);
+}
+
+.myslide2 {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .cont {
@@ -428,6 +437,7 @@ h6 {
 .experince, span {
   font-size: 0.8rem;
   margin: 0 2rem;
+  text-align: center;
   font-family: monospace;
   font-weight: lighter;
 }

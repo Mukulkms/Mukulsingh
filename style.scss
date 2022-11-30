@@ -20,7 +20,7 @@ html{
  scroll-behavior: smooth;
 }
 :root{
-  --background: rgba(0, 0, 0, 0.929);
+  --background:black;
   --text: white;
   --box-shadow: 0 0 20px rgba(246, 244, 244, 0.229);
 }
@@ -143,22 +143,24 @@ main{
     to { transform: translateX(-78%); }
   }
 
-
- 
   .mySlides{
     display: flex;
     justify-content: center;
     align-items: center;
-    
   }
   .dp{
-    display: none;
     width: 48%;
     height: auto;
     margin-top: -33.5rem;
     box-shadow:var(--box-shadow);
     
   }
+  .myslide2{
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+ 
   .cont{
     display: flex;
     flex-direction: column;
@@ -312,6 +314,7 @@ h6{
 .experince,span{
   font-size: 0.8rem;
   margin: 0 2rem;
+  text-align: center;
   font-family: monospace;
   font-weight: lighter;
 }
