@@ -3,12 +3,12 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
 @font-face {
   font-family: clash;
-  src: url(ClashDisplay-Regular.otf);
+  src: url(/ClashDisplay-Regular.otf);
 }
 
 @font-face {
   font-family: neutral;
-  src: url(NeutralFace.otf);
+  src: url(/NeutralFace.otf);
 }
 
 * {
