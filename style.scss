@@ -506,6 +506,11 @@ footer{
   justify-content: center;
   align-items: center;
 }
+.s{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
 .social{
   display: flex;
   gap: 5rem;
@@ -515,10 +520,11 @@ footer{
   
 }
 .heading4{
+  margin-bottom: 5rem;
   font-size: 8vw;
   font-family: 'clash';
   text-decoration: underline 2px;
-  
+  text-align: center;
 }
 .social-links{
   font-size:1.2rem;
