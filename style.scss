@@ -332,9 +332,22 @@ h6{
    
 }
 
+.topic{
+  font-size: 8vw;
+  display: flex;
+  color: white;
+  font-family: 'clash';
+  text-shadow: 5px 5px orangered;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  height: 110vh;
+  background-color: rgba(0, 0, 0, 0.252);
+}
 .parallax{
   background-image:url(2.jpg);
   height:800px;
+  text-align: center;
   background-size:100%;
   background-repeat:no-repeat;
   background-attachment: fixed;
@@ -447,8 +460,10 @@ h2{
   position: absolute;
   white-space: nowrap;
   will-change: transform;
+  line-height: 1.5;
   animation: marquee 68s linear infinite;
 }
+
 
 @keyframes marquee{
   from { transform: translateX(0); }

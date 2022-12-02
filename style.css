@@ -453,9 +453,29 @@ h6 {
   overflow: hidden;
 }
 
+.topic {
+  font-size: 8vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-family: 'clash';
+  text-shadow: 5px 5px orangered;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 110vh;
+  background-color: rgba(0, 0, 0, 0.252);
+}
+
 .parallax {
   background-image: url(2.jpg);
   height: 800px;
+  text-align: center;
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -576,6 +596,7 @@ h2 {
   position: absolute;
   white-space: nowrap;
   will-change: transform;
+  line-height: 1.5;
   -webkit-animation: marquee 68s linear infinite;
           animation: marquee 68s linear infinite;
 }
