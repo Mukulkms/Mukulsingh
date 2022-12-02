@@ -460,6 +460,7 @@ h2{
 
 .contact{
   display: flex;
+  padding: 0 5rem;
   overflow: hidden;
   justify-content: center;
   flex-direction: column;
@@ -515,7 +516,7 @@ textarea,input{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 5rem;
+  margin: 4rem 0 5rem 0;
   flex-direction: column;
   max-width: 1920px;
 }
