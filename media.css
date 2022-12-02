@@ -225,6 +225,15 @@ font-size: 1rem;
     width: 100%;
     height: fit-content;
   }
+  .track2{
+    line-height: 2.5;
+ }
+ .expertise{
+    padding-bottom: 2rem;
+ }
+ .contact{
+    padding: 0;
+ }
 }
 
 @media(max-width:460px){
