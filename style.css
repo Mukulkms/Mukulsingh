@@ -24,7 +24,7 @@ html {
 }
 
 :root {
-  --background:black;
+  --background:rgba(0, 0, 0, 0.929);
   --text: white;
   --box-shadow: 0 0 20px rgba(246, 244, 244, 0.229);
 }
@@ -32,7 +32,7 @@ html {
 body {
   background-color: var(--background);
   font-family: 'open sans';
-  color: rgba(255, 255, 255, 0.911);
+  color: white;
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
@@ -42,7 +42,7 @@ body::-webkit-scrollbar {
 }
 
 .dark-mode {
-  --background: white;
+  --background: rgb(228, 227, 227);
   --text:black;
   color: var(--text);
   --box-shadow: 0 0 30px rgba(12, 12, 12, 0.538);
