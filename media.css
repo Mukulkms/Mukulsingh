@@ -69,6 +69,35 @@
         z-index: 1;
         font-weight: lighter;
     }
+    .marquee1{
+        font-size: 5rem;
+        height: 6rem;
+    }
+    .marquee3{
+        font-size: 5rem;
+        height: 6rem;
+        margin-top: -3rem;
+    }
+
+    .track1 {
+    
+        animation: marquee 60s linear infinite;
+      }
+
+      .marquee2{
+        font-size: 5rem;
+        height: 6rem;
+        
+    }
+
+    .track2{
+        animation: marquee 10s linear infinite;
+      }
+      .heading1{
+        font-size: 4rem;
+        height: 6rem;
+        line-height: 1.5;
+      }
     .cont{
         margin-top: 2rem;
     }
